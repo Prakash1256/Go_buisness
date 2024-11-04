@@ -3,7 +3,8 @@ import React from 'react';
 
 function OurServices() {
   return (
-    <div className="our-services">
+    <>
+     <div className="our-services">
       <h2>Our Services & Products</h2>
       <div className="service-box">
         <img src="/public/images/image 79.png" alt="Software Development" />
@@ -29,6 +30,11 @@ function OurServices() {
         </p>
       </div>
     </div>
+     <div className='image-82'>
+      <img src='/public/images/image 82.png'/>
+    </div>
+    </>
+    
   );
 }
 

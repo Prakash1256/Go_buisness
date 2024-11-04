@@ -333,26 +333,41 @@
 }         
 
 /* Our Services */
+/* CSS */
 
+/* Our Services */
 .our-services {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap to the next line if needed */
+  justify-content: center; /* Centers the items horizontally */
+  width: 100%;
+  background-color: #F1F1F1;
   text-align: center;
   padding: 20px;
-  
 }
 
 .our-services h2 {
-  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  color: #263238;
   margin-bottom: 20px;
+  width: 100%; /* Ensures the heading spans the full width */
 }
 
 .service-box {
-  display: inline-block;
-  width: 300px;
+  display: flex;
+  flex-direction: column; /* Stacks content vertically */
+  align-items: center;
+  width: 384px;
+  min-height: 485px; /* Ensures all boxes have the same minimum height */
+  padding: 30px;
   margin: 20px;
-  padding: 20px;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff; /* Optional: Adds a white background */
 }
 
 .service-box img {
@@ -362,11 +377,33 @@
 }
 
 .service-box h3 {
-  font-size: 18px;
+  width: 100%; /* Ensures h3 spans the full width within the box */
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  text-align: center;
   margin-bottom: 10px;
 }
 
 .service-box p {
-  font-size: 14px;
-  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23.2px;
+  text-align: center;
+  color: #000000;
 }
+.image-82 {
+  width:  1440px; /* Takes up the full width of the container */
+  height: 535.29px; /* Sets the fixed height */
+  object-fit: cover;
+  position: relative;
+  left: 40px;
+  background-color: #F1F1F1;
+} 
+ 
+
+
+

@@ -1,4 +1,4 @@
-import './App.css'
+import './App.css';
 import HeroSection from './components/HeroSection';
 import MissionVisionComponent from './components/MissionVisionComponent';
 import Navbar from './components/Navbar';
