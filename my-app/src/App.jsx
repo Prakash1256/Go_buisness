@@ -1,6 +1,8 @@
 import './App.css'
 import HeroSection from './components/HeroSection';
+import MissionVisionComponent from './components/MissionVisionComponent';
 import Navbar from './components/Navbar';
+import OurServices from './components/OurServices';
 import WhatWeDo from './components/WhatWeDo';
 
 function App() {
@@ -11,6 +13,8 @@ function App() {
     <Navbar/>
     <HeroSection/>
     <WhatWeDo/>
+    <MissionVisionComponent/>
+    <OurServices/>
     </>
   )
 }

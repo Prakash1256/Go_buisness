@@ -1,5 +1,11 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* Navbar.css */
- .navbar {
+.navbar {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -76,7 +82,7 @@
 .text-content {
   width: 613px;
   height: 315px;
-  top: 364px;
+  top: 270px;
   left: 120px;
   border-radius: 8px;
   position: absolute; 
@@ -86,7 +92,7 @@
 .text-content h1 {
   font-size: 2.5rem;
   color: #1f1f1f;
-  font-family: Poppins;
+  font-family: 'Poppins';
   font-weight: bold;
 }
 
@@ -127,7 +133,7 @@
   padding: 0.75rem 1.5rem;
   background-color: #E5E7EB;
   color: #1F2A37;
-  border: 1px solid ;
+  border: 1px solid #E5E7EB;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -135,26 +141,23 @@
   position: absolute;
   width: 585px;
   height: 577px;
-  top: 375px;
+  top: 270px;
   left: 735px;
 }
 
 
 
-/* whatWeDo */
-
 .what-we-do {
   text-align: center;
   padding: 40px;
   background-color: #f5f5f5;
-  width: 1440px;
-  height: 682px;
-  top: 1041px;
+  width: 100%; /* Full width of the viewport */
+  height: auto; /* Adjust height based on content */
+   /* Adjust positioning if needed */
 }
 
-
 .what-we-do h2 {
-  color: #6b47dc; /* Adjust color to match the blue title */
+  color: #6b47dc;
   font-size: 24px;
   font-weight: bold;
 }
@@ -169,6 +172,7 @@
   display: flex;
   justify-content: center;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .service-card {
@@ -178,8 +182,6 @@
   width: 250px;
   text-align: center;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  
-  
 }
 
 .icon {
@@ -192,22 +194,179 @@
   font-size: 18px;
   margin: 10px 0;
   font-weight: bold;
+  color: #000000;
+  font-weight: 600;
+  font-family: 'Poppins';
 }
 
 .service-card p {
-  font-size: 14px;
-  color: #555;
+  font-size: 16px;
+  color: #000000;
   margin-bottom: 20px;
+  font-weight: 400;
+  font-family: 'Poppins';
+  line-height: 27px;
+  align-items: center;
 }
 
-.learn-more {
-  font-size: 14px;
-  color: #6b47dc;
-  text-decoration: none;
-  font-weight: bold;
+.service-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  padding: 30px;
+  display: block;
+  margin: 0 auto;
 }
+.learn-more {
+  font-family: 'Poppins', sans-serif; /* Add the Poppins font */
+  font-size: 12px; /* Set the font size to 18px */
+  line-height: 27px; /* Set the line height to 27px */
+  color: #000000; /* Set the text color to black */
+  text-decoration: none; /* Remove underline from links */
+  font-weight: 900; /* Set font weight to 900 */
+}
+
 
 .learn-more:hover {
   text-decoration: underline;
 }
 
+/* Optional: Responsive styling for smaller screens */
+@media (max-width: 768px) {
+  .what-we-do {
+    padding: 20px;
+  }
+
+  .service-card {
+    width: 100%; /* Full width for smaller screens */
+    max-width: 300px; /* Set a maximum width to maintain design consistency */
+  }
+}
+
+
+.mission-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8b5cf6; /* Preferred background color */
+  padding: 50px 20px;
+  color: #fff;
+}
+
+.mission-content {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  border-radius: 8px;
+  padding: 30px;
+  color: #4f46e5;
+  gap: 100px; /* Adding gap here for spacing between flex children */
+}
+
+.illustration {
+  flex: 1;
+  text-align: center;
+}
+
+.illustration img {
+  width: 657.96px;
+  height: 518.3px;
+  margin-top: 20px;
+}
+
+.text-content1 {
+  flex: 1;
+  padding: 0 20px;
+  width: 529px;
+  height: 320px;
+  box-sizing: border-box; /* Ensures padding is included in the width/height */
+  max-width: 100%; /* Makes it responsive */
+}
+
+
+.text-content1 h2 {
+  font-size: 2rem;
+  color: #FFFFFF;
+  font-family: 'Poppins';
+}
+
+.text-content1 h3 {
+  font-size: 20px; 
+  color: #FFFFFF;
+  font-family: 'Poppins'; 
+  font-weight: 500; 
+  line-height: 29px; 
+  letter-spacing: 1%; 
+  Width:444px;
+  height:29px;
+  align-items: center;
+}
+
+
+.text-content1 p {
+  font-size: 16px; /* Set the font size to 16px */
+  color: #FFFFFF;
+  font-family: 'Poppins', sans-serif; /* Apply the Poppins font */
+  font-weight: 400; /* Set font weight to 400 */
+  line-height: 23.2px; /* Set line height to 23.2px */
+  width: 529px; /* Set width to 529px */
+  height: 92px; /* Set height to 92px */
+  padding: 10px 0px;
+}
+
+.know-more-btn {
+  background-color: #ef4444;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 8px; /* Set border radius to 8px */
+  cursor: pointer;
+  margin-top: 20px;
+  width: 182px; /* Set width to 182px */
+  height: 49px; /* Set height to 49px */
+  transition: background-color 0.3s ease;
+}
+
+.know-more-btn:hover {
+  background-color: #dc2626;
+}         
+
+/* Our Services */
+
+.our-services {
+  text-align: center;
+  padding: 20px;
+  
+}
+
+.our-services h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.service-box {
+  display: inline-block;
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.service-box img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.service-box h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.service-box p {
+  font-size: 14px;
+  line-height: 1.5;
+}
