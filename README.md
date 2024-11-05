@@ -25,6 +25,10 @@ Navigate to your project directory:
 ```bash
 cd my-app
 ```
+
+```bash
+npm run dev
+```
 Install Dependencies
 Navigate to the root directory of your project.<br>
 Install necessary dependencies: 
