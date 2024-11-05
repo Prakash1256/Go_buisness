@@ -1,0 +1,110 @@
+/* Our Services */
+.our-services {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Heading Style */
+.our-services h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #263238;
+    margin-bottom: 20px;
+    width: 100%; 
+}
+
+/* Service Box Style */
+.service-box {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 384px;
+    min-height: 485px; 
+    padding: 30px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.service-box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.service-box h3 {
+    width: 100%; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.service-box p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23.2px;
+    text-align: center;
+    color: #000000;
+}
+
+.image-82 {
+    width: 100%;
+    height: 535.29px;
+    overflow: hidden;
+}
+
+.image-82 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Media query for tablet view */
+@media (max-width: 768px) {
+    .our-services h2 {
+        text-align: center; 
+        width: 100%;
+        margin-bottom: 20px; 
+    }
+
+    .our-services {
+        flex-wrap: wrap; 
+        justify-content: space-around; 
+    }
+
+    .service-box {
+        width: 30%; 
+        margin: 10px; 
+    }
+
+    .image-82 img {
+        width: 100%; 
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+/* Media query for mobile view  */
+@media (max-width: 480px) {
+    .image-82 img {
+        width: 100%; 
+        padding: 0 10px; 
+    }
+    .service-box {
+        width: 100%; 
+    }
+}
