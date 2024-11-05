@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11,7 +11,6 @@
   justify-content: space-around;
   padding: 1rem 2rem;
   background-color: #f5f5f5;
-  
 }
 
 .navbar-logo {
@@ -20,7 +19,7 @@
 }
 
 .navbar-logo img {
-  height: 24px; 
+  height: 24px;
   margin-right: 0.5rem;
 }
 
@@ -58,12 +57,11 @@
   font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s;
-} 
+}
 
 .navbar-button:hover {
   background-color: #5a54cc;
 }
-
 
 /* heroSection.jsx */
 
@@ -73,10 +71,10 @@
   justify-content: space-between;
   padding: 2rem;
   background-color: #f9f9f9; /* Adjust the color as needed */
-  width: 100%;             /* Full width of the page */
-  min-height: 140vh;        /* Full height of the viewport */
-  box-sizing: border-box;   /* Includes padding in width/height calculations */
-  position: relative;       /* Ensures absolute-positioned children align relative to this */
+  width: 100%; /* Full width of the page */
+  min-height: 140vh; /* Full height of the viewport */
+  box-sizing: border-box; /* Includes padding in width/height calculations */
+  position: relative; /* Ensures absolute-positioned children align relative to this */
 }
 
 .text-content {
@@ -85,17 +83,15 @@
   top: 270px;
   left: 120px;
   border-radius: 8px;
-  position: absolute; 
+  position: absolute;
 }
-
 
 .text-content h1 {
   font-size: 2.5rem;
   color: #1f1f1f;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: bold;
 }
-
 
 .text-content h2 {
   font-size: 2rem;
@@ -105,14 +101,13 @@
 }
 
 .text-content .highlight {
-  color: #7f6eff; 
+  color: #7f6eff;
 }
 
 .text-content p {
-  color: #2E3E5C;
+  color: #2e3e5c;
   margin-top: 1rem;
   font-size: 1rem;
- 
 }
 
 .button-group {
@@ -131,9 +126,9 @@
 
 .secondary-button {
   padding: 0.75rem 1.5rem;
-  background-color: #E5E7EB;
-  color: #1F2A37;
-  border: 1px solid #E5E7EB;
+  background-color: #e5e7eb;
+  color: #1f2a37;
+  border: 1px solid #e5e7eb;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -145,15 +140,13 @@
   left: 735px;
 }
 
-
-
 .what-we-do {
   text-align: center;
   padding: 40px;
   background-color: #f5f5f5;
   width: 100%; /* Full width of the viewport */
   height: auto; /* Adjust height based on content */
-   /* Adjust positioning if needed */
+  /* Adjust positioning if needed */
 }
 
 .what-we-do h2 {
@@ -196,7 +189,7 @@
   font-weight: bold;
   color: #000000;
   font-weight: 600;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 .service-card p {
@@ -204,7 +197,7 @@
   color: #000000;
   margin-bottom: 20px;
   font-weight: 400;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   line-height: 27px;
   align-items: center;
 }
@@ -218,14 +211,13 @@
   margin: 0 auto;
 }
 .learn-more {
-  font-family: 'Poppins', sans-serif; /* Add the Poppins font */
+  font-family: "Poppins", sans-serif; /* Add the Poppins font */
   font-size: 12px; /* Set the font size to 18px */
   line-height: 27px; /* Set the line height to 27px */
   color: #000000; /* Set the text color to black */
   text-decoration: none; /* Remove underline from links */
   font-weight: 900; /* Set font weight to 900 */
 }
-
 
 .learn-more:hover {
   text-decoration: underline;
@@ -242,7 +234,6 @@
     max-width: 300px; /* Set a maximum width to maintain design consistency */
   }
 }
-
 
 .mission-container {
   display: flex;
@@ -283,30 +274,28 @@
   max-width: 100%; /* Makes it responsive */
 }
 
-
 .text-content1 h2 {
   font-size: 2rem;
-  color: #FFFFFF;
-  font-family: 'Poppins';
+  color: #ffffff;
+  font-family: "Poppins";
 }
 
 .text-content1 h3 {
-  font-size: 20px; 
-  color: #FFFFFF;
-  font-family: 'Poppins'; 
-  font-weight: 500; 
-  line-height: 29px; 
-  letter-spacing: 1%; 
-  Width:444px;
-  height:29px;
+  font-size: 20px;
+  color: #ffffff;
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 1%;
+  width: 444px;
+  height: 29px;
   align-items: center;
 }
 
-
 .text-content1 p {
   font-size: 16px; /* Set the font size to 16px */
-  color: #FFFFFF;
-  font-family: 'Poppins', sans-serif; /* Apply the Poppins font */
+  color: #ffffff;
+  font-family: "Poppins", sans-serif; /* Apply the Poppins font */
   font-weight: 400; /* Set font weight to 400 */
   line-height: 23.2px; /* Set line height to 23.2px */
   width: 529px; /* Set width to 529px */
@@ -330,7 +319,7 @@
 
 .know-more-btn:hover {
   background-color: #dc2626;
-}         
+}
 
 /* Our Services */
 /* CSS */
@@ -341,13 +330,13 @@
   flex-wrap: wrap; /* Allows items to wrap to the next line if needed */
   justify-content: center; /* Centers the items horizontally */
   width: 100%;
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
   text-align: center;
   padding: 20px;
 }
 
 .our-services h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 54px;
@@ -378,7 +367,7 @@
 
 .service-box h3 {
   width: 100%; /* Ensures h3 spans the full width within the box */
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 30px;
@@ -388,7 +377,7 @@
 }
 
 .service-box p {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 23.2px;
@@ -396,33 +385,29 @@
   color: #000000;
 }
 .image-82 {
-  width: 100%; 
+  width: 100%;
   height: 535.29px;
   overflow: hidden;
-   
 }
 
 .image-82 img {
-  width: 100%; 
-  height: 100%; 
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
- 
- 
-
 
 /* Courses.jsx  */
 
 .courses-section {
   text-align: center;
   padding: 2rem;
-  width: 100%; 
+  width: 100%;
   background-color: rgb(241, 241, 241);
-  height: auto; 
+  height: auto;
 }
 
 .courses-section h2 {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 700;
   font-size: 36px;
   line-height: 54px;
@@ -430,7 +415,7 @@
   height: 54px; */
   color: #263238;
   margin-bottom: 1.5rem;
-  margin-top: 130px;
+  margin-top: 120px;
 }
 
 .courses-container {
@@ -501,7 +486,7 @@
   font-weight: 700;
   font-size: 21.56px;
   line-height: 36px;
-  color: #6B7385;
+  color: #6b7385;
   position: relative;
   top: 70px;
   right: 80px;
@@ -514,7 +499,7 @@
   font-weight: 500;
   font-size: 17.97px;
   line-height: 30px;
-  color: #6B7385;
+  color: #6b7385;
   text-decoration: line-through;
   font-size: 0.9rem;
   position: relative;
@@ -525,7 +510,7 @@
 .learn-more-btn {
   width: 75.45px;
   height: 21px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-weight: 500;
   font-size: 13.89px;
   line-height: 21px;
@@ -539,7 +524,178 @@
 .learn-more-btn:hover {
   text-decoration: underline;
   font-weight: bold;
-  transition: transform 0.2s ease-in-out; 
+  transition: transform 0.2s ease-in-out;
 }
 
+/* News letter */
 
+.newsletter-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.newsletter-content {
+  position: relative;
+  max-width: 600px; /* Adjusted to allow a wider content area */
+  background-color: #ffffff;
+  padding: 2rem;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+  width: 100%; /* Changed to 100% to fill parent width */
+  height: auto; /* Allow height to adjust based on content */
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  gap: 20px;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.image-placeholder img {
+  max-width: 100%; /* Ensure the image is responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.content-title {
+  text-align: center;
+  width: 259.09px;
+  height: 205.87px;
+}
+
+.title {
+  font-size: 1.5rem; /* Adjusted for better readability */
+  margin: 0;
+  color: #000000;
+  font-family: "Poppins";
+}
+
+.highlight {
+  color: #706fe5;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 42px;
+  letter-spacing: 10%;
+}
+
+.description {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -1%;
+  width: 257.72px;
+  height: 102.02px;
+  color: #000000;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.email-input {
+  flex: 1; /* Allow input to take remaining space */
+  padding: 0.5rem;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+.subscribe-button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff; /* Button background color */
+  color: #ffffff; /* Button text color */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.subscribe-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.footer-text {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -1%;
+  text-align: center;
+  color: #263238;
+}
+.newsletter-content1 {
+  display: flex;
+  gap: 20px;
+}
+.subscribe {
+  color: #000000;
+}
+
+/* Footer.css */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #706fe5;
+  padding: 60px;
+  color: #ffffff;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 150px;
+  margin-right: 20px;
+}
+
+.footer-column h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.footer-column ul {
+  list-style-type: none;
+  width: Hug (172px);
+  height: Fixed (231.48px);
+}
+
+.footer-column li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.footer-column li:hover {
+  color: #000000; /* Lighter shade on hover */
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-column {
+    margin-bottom: 20px;
+  }
+}
