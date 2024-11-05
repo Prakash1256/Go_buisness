@@ -1,5 +1,5 @@
 import React from "react";
-
+import '../stylesheets/whatwedo.css';
 const WhatWeDo = () => {
   return (
     <section className="what-we-do">

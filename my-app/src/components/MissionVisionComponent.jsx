@@ -1,13 +1,12 @@
-// MissionVisionComponent.js
 import React from 'react';
+import '../stylesheets/mission.css';
 
 function MissionVisionComponent() {
     return (
         <div className="mission-container">
             <div className="mission-content">
                 <div className="illustration">
-                    {/* Replace with your own SVG or image component */}
-                    <img src="/public/images/amico.png" alt="Illustration" />
+                    <img src="/images/amico.png" alt="Illustration" />
                 </div>
                 <div className="text-content1">
                     <h2>Our Mission & Vision</h2>

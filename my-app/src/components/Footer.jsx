@@ -1,5 +1,5 @@
 import React from 'react';
-// import './Footer.css';
+import '../stylesheets/footer.css';
 
 const Footer = () => {
   return (
@@ -42,7 +42,7 @@ const Footer = () => {
         <ul>
           <li>Privacy Policies</li>
           <li>Terms & Conditions</li>
-          <li>Cancellations and refunds</li>
+          <li>Cancellation & refunds</li>
         </ul>
       </div>
     </footer>

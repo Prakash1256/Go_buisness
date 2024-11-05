@@ -1,0 +1,126 @@
+.courses-section {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+    height: auto;
+  }
+  
+  .courses-section h2 {
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #263238;
+    margin-bottom: 1.5rem;
+    margin-top: 120px;
+  }
+  
+  .courses-container {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .course-card {
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    width: 283px;
+    height: 420px;
+    text-align: center;
+  }
+  
+  .course-image {
+    width: 222px;
+    height: 168px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  .course-card h3 {
+    font-size: 1.1rem;
+    color: #333;
+    margin: 0.5rem 0;
+  }
+  
+  .reviews {
+    color: #f39c12;
+    font-size: 0.9rem;
+  }
+  
+  .stars {
+    color: #f39c12;
+  }
+  
+  .batch-limit {
+    color: #000000;
+    font-size: 0.85rem;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 15px;
+    position: relative;
+    top: 40px;
+  }
+  
+  .price-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem 0;
+  }
+  
+  .discounted-price {
+    color: #27ae60;
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 41.62px;
+    height: 36px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 21.56px;
+    line-height: 36px;
+    color: #6b7385;
+    position: relative;
+    top: 70px;
+    right: 80px;
+  }
+  
+  .original-price {
+    width: 34.59px;
+    height: 30px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 17.97px;
+    line-height: 30px;
+    color: #6b7385;
+    text-decoration: line-through;
+    font-size: 0.9rem;
+    position: relative;
+    top: 70px;
+    right: 90px;
+  }
+  
+  .learn-more-btn {
+    width: 75.45px;
+    height: 21px;
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 13.89px;
+    line-height: 21px;
+    color: #192335;
+    position: relative;
+    top: 20px;
+    left: 70px;
+    cursor: pointer;
+  }
+  
+  .learn-more-btn:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    transition: transform 0.2s ease-in-out;
+  }

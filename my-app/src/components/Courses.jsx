@@ -1,5 +1,5 @@
 import React from "react";
-// import "./Courses.css";
+import '../stylesheets/course.css';
 
 function Courses() {
   return (
@@ -44,7 +44,7 @@ function Courses() {
 
         <div className="course-card">
           <img
-            src="/public/images/Rectangle 3468091.png" // Replace with actual image URL
+            src="/public/images/Rectangle 3468091.png" 
             alt="Full Stack Classes"
             className="course-image"
           />
@@ -62,7 +62,7 @@ function Courses() {
 
         <div className="course-card">
           <img
-            src="/public/images/Rectangle 3468089.png" // Placeholder image
+            src="/public/images/Rectangle 3468089.png" 
             alt="Placeholder Course"
             className="course-image"
           />

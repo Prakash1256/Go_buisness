@@ -1,5 +1,5 @@
 import React from 'react';
-
+import '../stylesheets/herosection.css';
 const HeroSection = () => {
   return (
     <div className="hero-section">
@@ -17,7 +17,7 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="image-content">
-        <img src="/public/images/group.png" alt="Woman at computer" />
+        <img src="/images/group.png" alt="Woman at computer" />
       </div>
     </div>
   );
